@@ -1,7 +1,7 @@
 # 🍦 IcepopIDE v2
 
 <p align="center">
-  <img src="Logo.png" alt="IcepopIDE v2" width="100%">
+  <img src="Logo.png" alt="IcepopIDE v2" width="25%">
 </p>
 
 <p align="center">
@@ -235,6 +235,18 @@ Proyecto de código abierto.
 
 ---
 
-# ❤️ IcepopIDE
+# ❤️ Agradecimientos
+- Gracias  Ollama AI por proporcionar modelos habiertos y gratuitos
+- Gracias a Microsoft por crear Monaco editor y facilitar la tarea de crear un ide
+- Gracias al asistente IA de claude por la ayuda en la depuración del código
 
-> Programa más rápido. Crea más. Deja que la Inteligencia Artificial haga el trabajo pesado.
+---
+# 🗒️Notas 
+- Recomiendo usar modelos como Gemma 4 que es estable y razona, modelos como qwen 3.6 en la generación de proyectos peude consumir mucha ram y memoria.
+- ⚠️ No modifiques esta dirección (http://127.0.0.1:11434) salvo que sepas exactamente lo que estás haciendo.
+Es la dirección local utilizada por Ollama para que IcepopIDE se comunique con el modelo de Inteligencia Artificial. Cambiarla impedirá que el IDE pueda conectarse correctamente. Solo debes modificarla si utilizas Ollama en otro equipo o has configurado un puerto diferente.
+- El ide tien muchos errores porque esta en trabajo pero es usable
+---
+#  IcepopIDE
+
+> Programa más rápido. Crea más. Propiedad de BOM STUDIOS
