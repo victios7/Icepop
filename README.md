@@ -19,7 +19,7 @@ Visita la página oficial de IcepopIDE para usar el modelo en linea del ide  en 
 
 ## 🧠 Carpeta de modelos
 
-Encuentra una colección de modelos compatibles :
+Encuentra una colección de modelos de Icepop :
 
 ➡️ https://github.com/victios7/Icepop/tree/main/models
 
@@ -265,6 +265,7 @@ Proyecto de código abierto.
 - ⚠️ No modifiques esta dirección (http://127.0.0.1:11434) salvo que sepas exactamente lo que estás haciendo.
 Es la dirección local utilizada por Ollama para que IcepopIDE se comunique con el modelo de Inteligencia Artificial. Cambiarla impedirá que el IDE pueda conectarse correctamente. Solo debes modificarla si utilizas Ollama en otro equipo o has configurado un puerto diferente.
 - El ide tien muchos errores porque esta en trabajo pero es usable
+- Muchos modelos no són funcionales
 ---
 #  IcepopIDE
 
