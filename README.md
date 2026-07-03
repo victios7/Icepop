@@ -247,6 +247,13 @@ Todo ello sin depender de servicios externos cuando se utilizan modelos locales.
 </p>
 
 ---
+# ⚠️Advertencia
+- Mientras usas el ide deber de mantener la terminal abierta para poder usar la IA
+- Si el comando no funciona dale al boton de iconos ocultos seleciona ollama y pulsa la opción de quit leugo cierra la terminal y pega el comando que pone en las intruciones
+- Si el comando continua sin funcionar ejecuta el .bat en https://github.com/victios7/Icepop/blob/main/launch%20ollama.bat
+- Si continua sin funcionar desintala ollama elimina todos los modelos loscales eliminando la carpeta ollama reinicia el ordenador y reintala ollama
+- No es disponible ni para Android ni para Linux ni MAC OS solo Para Windows en Navagadores como google bing chrome y otros navegadores de última generación
+---
 
 # 📄 Licencia
 
