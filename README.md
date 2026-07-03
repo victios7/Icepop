@@ -1,7 +1,7 @@
 # 🍦 IcepopIDE v2
 
 <p align="center">
-  <img src="Captura de pantalla 2026-07-03 194404.png" alt="IcepopIDE v2" width="100%">
+  <img src="Logo.png" alt="IcepopIDE v2" width="100%">
 </p>
 
 <p align="center">
@@ -176,7 +176,7 @@ ollama pull llama3
 ## 3. Ejecutar Ollama
 
 ```bash
-ollama serve
+OLLAMA_ORIGINS=* ollama serve
 ```
 
 ---
@@ -208,6 +208,8 @@ No requiere Node.js para ejecutarse.
 
 IcepopIDE nace con la idea de ofrecer un IDE que sea:
 
+- en el navegador
+- con agentes IA gratis
 - sencillo
 - moderno
 - rápido
