@@ -5,6 +5,25 @@
 </p>
 
 <p align="center">
+---
+
+# 🌐 Enlaces útiles
+
+## 🏠 Página principal
+
+Visita la página oficial de IcepopIDE para usar el modelo en linea del ide  en su última versión y consultar la documentación:
+
+➡️ https://victios7.github.io/Icepop/
+
+---
+
+## 🧠 Carpeta de modelos
+
+Encuentra una colección de modelos compatibles :
+
+➡️ https://github.com/victios7/Icepop/tree/main/models
+
+---
 
 ## El IDE moderno con Inteligencia Artificial para desarrollar proyectos completos
 
