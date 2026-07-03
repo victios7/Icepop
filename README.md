@@ -224,7 +224,7 @@ Todo ello sin depender de servicios externos cuando se utilizan modelos locales.
 # 📷 Captura
 
 <p align="center">
-<img src="Captura de pantalla 2026-07-03 194404.png" width="100%">
+<img src="Foto de ejmplo.png" width="100%">
 </p>
 
 ---
