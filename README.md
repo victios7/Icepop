@@ -202,12 +202,10 @@ IcepopIDE permite personalizar:
 
 ## Opción A — Ejecutable (recomendada)
 
-Descarga el instalador o el portable desde la sección **Releases** de este repositorio:
+Descarga el instalador o el portable desde la sección **EXE** de este repositorio:
 
-➡️ [Ver Releases](../../releases)
-
-- **IcepopIDE-Setup.exe** — instalador con acceso directo en el escritorio
-- **IcepopIDE-Portable.exe** — sin instalación, ejecuta directamente
+-Descarga el zip Descomprimelo y sigue las intrucciones de READ ME md
+https://github.com/victios7/Icepop/blob/main/EXE/Icepop%20exe%20build.zip
 
 ---
 
