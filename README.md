@@ -5,13 +5,14 @@
 </p>
 
 <p align="center">
+
 ---
 
 # 🌐 Enlaces útiles
 
 ## 🏠 Página principal
 
-Visita la página oficial de IcepopIDE para usar el modelo en linea del ide  en su última versión y consultar la documentación:
+Visita la página oficial de IcepopIDE para usar el modelo en línea del IDE en su última versión y consultar la documentación:
 
 ➡️ https://victios7.github.io/Icepop/
 
@@ -19,7 +20,7 @@ Visita la página oficial de IcepopIDE para usar el modelo en linea del ide  en 
 
 ## 🧠 Carpeta de modelos
 
-Encuentra una colección de modelos de Icepop :
+Encuentra una colección de modelos de Icepop:
 
 ➡️ https://github.com/victios7/Icepop/tree/main/models
 
@@ -89,6 +90,51 @@ IcepopIDE incorpora un editor avanzado con soporte para:
 
 ---
 
+## 🆚 Soporte para VS# y VS3 *(nuevo en v2)*
+
+IcepopIDE v2 incluye soporte nativo completo para **VS# (VSharp)**, el lenguaje de programación de BOM STUDIOS, también conocido como **VS3**:
+
+- **Resaltado de sintaxis** con coloreado de palabras clave, tipos, literales y comentarios
+- **Autocompletado inteligente** con snippets para funciones, clases, bucles y más
+- **Indentación automática** y pares de cierre automáticos
+- **Icono exclusivo** 🆚 para archivos `.vs`
+- **Documentación integrada** en el panel de ayuda del IDE
+- **Plantilla de proyecto** lista para usar con archivos de ejemplo
+
+---
+
+## 🦈 Soporte para Mako Script *(nuevo en v2)*
+
+Soporte completo para **Mako Script 1.0 Alpha**, el lenguaje OOP de BOM STUDIOS:
+
+- **Resaltado de sintaxis** con coloreado de palabras clave (`var`, `fun`, `si`, `sino`, `repeat`, `while`, `forever`, `exit`, `return`, `log`, `class`, `create`, `break`)
+- **Autocompletado** con snippets para estructuras típicas de Mako
+- **Icono exclusivo** 🦈 para archivos `.mako`
+- **Documentación integrada** con referencia completa de tipos y sintaxis
+- **Plantilla de proyecto** con archivos de ejemplo (`main.mako`, `clases.mako`, `listas.mako`)
+
+---
+
+## 🎨 Temas de interfaz *(nuevo en v2)*
+
+IcepopIDE v2 incorpora un sistema de temas visuales intercambiables desde **Ajustes → Temas**:
+
+- **☀️ Summer Cartoon** — tema claro y colorido, el estilo original de IcepopIDE
+- **🌑 Dark Pro** — tema oscuro profesional para sesiones largas de trabajo
+
+El tema seleccionado se guarda automáticamente y se aplica al reabrir el IDE.
+
+---
+
+## 📦 Plantillas de proyecto ampliadas *(nuevo en v2)*
+
+Además de las plantillas existentes, v2 añade:
+
+- **Plantilla VS#** — genera un proyecto completo con `main.vs`, `utils.vs` y `README.md`
+- **Plantilla Mako** — genera un proyecto completo con `main.mako`, `clases.mako`, `listas.mako` y `README.md`
+
+---
+
 ## ⚡ Vista previa integrada
 
 Puedes visualizar aplicaciones HTML directamente desde el IDE mediante una vista previa integrada.
@@ -109,21 +155,6 @@ El asistente IA permite:
 - ayudar durante el desarrollo
 
 Todo sin abandonar el editor.
-
----
-
-## 📦 Plantillas de proyecto
-
-IcepopIDE puede generar automáticamente proyectos completos utilizando plantillas como:
-
-- HTML
-- Flask
-- Python
-- JavaScript
-- APIs
-- aplicaciones web
-
-La IA genera toda la estructura inicial.
 
 ---
 
@@ -163,10 +194,31 @@ IcepopIDE permite personalizar:
 - APIs remotas
 - extensiones
 - interfaz
+- temas visuales *(nuevo en v2)*
 
 ---
 
 # 🚀 Instalación
+
+## Opción A — Ejecutable (recomendada)
+
+Descarga el instalador o el portable desde la sección **Releases** de este repositorio:
+
+➡️ [Ver Releases](../../releases)
+
+- **IcepopIDE-Setup.exe** — instalador con acceso directo en el escritorio
+- **IcepopIDE-Portable.exe** — sin instalación, ejecuta directamente
+
+---
+
+## Opción B — Desde el HTML (sin instalación)
+
+1. Descarga `src/IcepopIDE_v2.html`
+2. Ábrelo directamente en tu navegador
+
+> Requiere conexión a internet para cargar Monaco Editor desde CDN.
+
+---
 
 ## 1. Instalar Ollama
 
@@ -213,13 +265,12 @@ IcepopIDE está desarrollado completamente con tecnologías web modernas.
 - HTML
 - CSS
 - JavaScript
-- Monaco Editor
+- Monaco Editor (con lenguajes personalizados VS# y Mako)
 - Highlight.js
 - Marked
 - JSZip
 - Ollama API
-
-No requiere Node.js para ejecutarse.
+- Electron *(para el ejecutable nativo)*
 
 ---
 
@@ -247,12 +298,15 @@ Todo ello sin depender de servicios externos cuando se utilizan modelos locales.
 </p>
 
 ---
-# ⚠️Advertencia
-- Mientras usas el ide deber de mantener la terminal abierta para poder usar la IA
-- Si el comando no funciona dale al boton de iconos ocultos seleciona ollama y pulsa la opción de quit leugo cierra la terminal y pega el comando que pone en las intruciones
-- Si el comando continua sin funcionar ejecuta el .bat en https://github.com/victios7/Icepop/blob/main/launch%20ollama.bat
-- Si continua sin funcionar desintala ollama elimina todos los modelos loscales eliminando la carpeta ollama reinicia el ordenador y reintala ollama
-- No es disponible ni para Android ni para Linux ni MAC OS solo Para Windows en Navagadores como google bing chrome y otros navegadores de última generación
+
+# ⚠️ Advertencia
+
+- Mientras usas el IDE debes mantener la terminal abierta para poder usar la IA
+- Si el comando no funciona, dale al botón de iconos ocultos, selecciona Ollama y pulsa la opción de quit, luego cierra la terminal y pega el comando que aparece en las instrucciones
+- Si el comando continúa sin funcionar, ejecuta el `.bat` en https://github.com/victios7/Icepop/blob/main/launch%20ollama.bat
+- Si continúa sin funcionar, desinstala Ollama, elimina todos los modelos locales eliminando la carpeta ollama, reinicia el ordenador y reinstala Ollama
+- No está disponible para Android, Linux ni macOS — solo para Windows en navegadores como Google Chrome, Microsoft Edge y otros navegadores de última generación
+
 ---
 
 # 📄 Licencia
@@ -262,18 +316,35 @@ Proyecto de código abierto.
 ---
 
 # ❤️ Agradecimientos
-- Gracias  Ollama AI por proporcionar modelos habiertos y gratuitos
-- Gracias a Microsoft por crear Monaco editor y facilitar la tarea de crear un ide
-- Gracias al asistente IA de claude por la ayuda en la depuración del código
+
+- Gracias a Ollama AI por proporcionar modelos abiertos y gratuitos
+- Gracias a Microsoft por crear Monaco Editor y facilitar la tarea de crear un IDE
+- Gracias al asistente IA de Claude por la ayuda en la depuración del código
 
 ---
-# 🗒️Notas 
-- Recomiendo usar modelos como Gemma 4 que es estable y razona, modelos como qwen 3.6 en la generación de proyectos peude consumir mucha ram y memoria.
-- ⚠️ No modifiques esta dirección (http://127.0.0.1:11434) salvo que sepas exactamente lo que estás haciendo.
-Es la dirección local utilizada por Ollama para que IcepopIDE se comunique con el modelo de Inteligencia Artificial. Cambiarla impedirá que el IDE pueda conectarse correctamente. Solo debes modificarla si utilizas Ollama en otro equipo o has configurado un puerto diferente.
-- El ide tien muchos errores porque esta en trabajo pero es usable
-- Muchos modelos no són funcionales
+
+# 🗒️ Notas
+
+- Recomiendo usar modelos como Gemma 4, que es estable y razona. Modelos como Qwen 3.6 en la generación de proyectos pueden consumir mucha RAM y memoria.
+- ⚠️ No modifiques esta dirección (`http://127.0.0.1:11434`) salvo que sepas exactamente lo que estás haciendo. Es la dirección local utilizada por Ollama para que IcepopIDE se comunique con el modelo de IA. Cambiarla impedirá que el IDE pueda conectarse correctamente. Solo debes modificarla si utilizas Ollama en otro equipo o has configurado un puerto diferente.
+- El IDE tiene algunos errores porque está en desarrollo activo, pero es completamente usable.
+- Muchos modelos no son funcionales con todas las características.
+
 ---
-#  IcepopIDE
+
+# 🆕 Novedades en v2
+
+| Característica | Detalle |
+|---|---|
+| 🆚 Soporte VS# / VS3 | Resaltado, autocompletado, snippets y documentación |
+| 🦈 Soporte Mako Script | Resaltado, autocompletado, snippets y documentación |
+| 🎨 Sistema de temas | Summer Cartoon ☀️ y Dark Pro 🌑 desde Ajustes |
+| 📦 Plantillas VS# | Proyecto completo generado automáticamente |
+| 📦 Plantillas Mako | Proyecto completo generado automáticamente |
+| 🖥️ Ejecutable nativo | Instalador y portable para Windows vía Electron |
+
+---
+
+# IcepopIDE
 
 > Programa más rápido. Crea más. Propiedad de BOM STUDIOS
