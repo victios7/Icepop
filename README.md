@@ -317,8 +317,6 @@ Proyecto de código abierto.
 
 - Gracias a Ollama AI por proporcionar modelos abiertos y gratuitos
 - Gracias a Microsoft por crear Monaco Editor y facilitar la tarea de crear un IDE
-- Gracias al asistente IA de Claude por la ayuda en la depuración del código
-
 ---
 
 # 🗒️ Notas
